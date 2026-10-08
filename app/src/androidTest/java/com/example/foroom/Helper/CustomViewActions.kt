@@ -1,6 +1,5 @@
-package com.example.foroom.Helper
+package com.example.foroom.helper
 
-import android.app.Instrumentation
 import android.graphics.drawable.ColorDrawable
 import android.os.SystemClock
 import android.view.MotionEvent
@@ -22,7 +21,6 @@ import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.espresso.util.HumanReadables
 import androidx.test.espresso.util.TreeIterables
 import androidx.test.platform.app.InstrumentationRegistry.getInstrumentation
-import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.collect.Iterables
 import org.hamcrest.*
 import org.hamcrest.Matchers.anyOf
 import java.util.concurrent.TimeoutException
