@@ -25,6 +25,7 @@ datastore = "1.1.1"
 splashscreen = "1.0.1"
 espressoContrib = "3.6.1"
 firebaseCrashlyticsBuildtools = "3.0.4"
+junitKtx = "1.3.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -50,6 +51,7 @@ datastore = { group = "androidx.datastore", name = "datastore-preferences", vers
 splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref="splashscreen"}
 androidx-espresso-contrib = { group = "androidx.test.espresso", name = "espresso-contrib", version.ref = "espressoContrib" }
 firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
